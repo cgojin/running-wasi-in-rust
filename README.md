@@ -13,6 +13,9 @@ cargo build -p wasi --target wasm32-wasi
 
 # run wasi in Rust
 cargo run
+
+# run linker example that linking two module
+cargo run --example linker1
 ```
 
 ## Running wasi by wasmtime
