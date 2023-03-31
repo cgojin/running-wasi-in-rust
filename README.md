@@ -16,6 +16,7 @@ cargo run
 
 # run linker example that linking two module
 cargo run --example linker1
+cargo run --example linker2
 ```
 
 ## Running wasi by wasmtime
